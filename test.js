@@ -1,3 +1,5 @@
 var x = require ('./index')
 
-x.handler();
+x.handler({},{},(test,resp)=>{
+    console.log(resp.body);
+});
