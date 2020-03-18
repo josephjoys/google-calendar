@@ -1,12 +1,12 @@
 const baseUrl = 'https://www.googleapis.com/calendar/v3/calendars/'
  , calendarIds = [
    {
-     id: 'joiceputhusseril@gmail.com',
-     description: 'stgeorge'
+     id: 'calId',
+     description: 'events'
    }
  ]
  , resource = '/events'
- , apiKey = 'AIzaSyAheMlIfOJvxE23CX7AtGMXIvjA_pn8cLg';
+ , apiKey = '';
 
 // baseUrl: 'http://httpbin.org/get'
 
